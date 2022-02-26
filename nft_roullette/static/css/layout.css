@@ -1,0 +1,19 @@
+body{
+	overflow-x: hidden;
+}
+.metamask{
+	background: linear-gradient(90.44deg, #FF0EE7 0%, #2128C9 100%);
+	display: inline-block;
+	right: 0px;
+	float: right;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: "Days One";
+	color: white;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.19);
+}
+.metamask.address{
+	display: none;
+}

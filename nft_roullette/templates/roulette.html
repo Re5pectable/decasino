@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %}Roulette{% endblock %}
+{% block head %}
+	<link rel="stylesheet" href="../static/css/roulette.css">
+{% endblock %}
+{% block content %}
+
+
+	<div class="roullette_wrapper">
+		<div class="items_container_wrapper">
+			<div class="items_container">
+				{% for item in items %}
+				<img src="/{{item.link}}" class="item" id="{{item.id}}">
+				{% endfor %}
+			</div>
+		</div>
+		<div class="tools_wrapper">
+			<img class="roll_button" src="../static/img/win_pointer.svg" onclick="roll()">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../static/js/roullette.js"></script>
+
+{% endblock %}

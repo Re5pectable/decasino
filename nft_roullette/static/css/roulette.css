@@ -1,0 +1,43 @@
+.item{
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.roll_roullette_button{
+	text-align: center;
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	width: 50px;
+	height: 20px;
+	background-color: blue;
+	position: static;
+}
+.roullette_wrapper{
+	width: 600px;
+	margin:0 auto;
+	z-index: 100;
+	overflow: hidden;
+}
+.items_container_wrapper{
+	position: relative;
+	height: 100px;
+}
+.items_container{
+	position: absolute;
+}
+.tools_wrapper{
+	text-align: center;
+	margin-top: 20px;
+}
+.roll_button{
+	width: 150px;
+	height: auto;
+	cursor: pointer;
+}
+header{
+	height: 50px;
+}

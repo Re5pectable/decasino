@@ -1,0 +1,53 @@
+<head>
+	<title>Desino</title>
+	<link rel="stylesheet" href="../static/css/index.css">
+	<link rel="stylesheet" href="../static/css/fonts.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+</head>
+<body>
+	<div class="afterRegScreen-wrapper">
+
+		<div class="afterRegScreen-content" id="aboutPasswordBefore"></div>
+		<div class="afterRegScreen-content" id="passwordHolder"></div>
+		<div class="afterRegScreen-content" id="aboutPasswordAfter"></div>
+	</div>
+	<div class="welcome-wrapper">
+	<div class="welcome">
+		<div class="modal-window-content login">
+			<div class="modal-title">Sign in</div>
+			<form method="post" id="loginForm">
+				<input required type="text" placeholder="Login" name="login">
+				<input required type="password" placeholder="Password" name="password">
+				<div>
+					<input class="submit-btn log" type="submit" value="Login">	
+				</div>
+			</form>
+			<div class="back-btn login">
+				<span onclick="showTitle()">Back</span>	
+			</div>
+		</div>
+		<div class="title">
+			<div class="first-row"><span>Welcome to</span></div>
+			<div class="second-row"><span>DESINO</span></div>
+				<div class='auth'>
+					<div id='login' onclick="showLogin()"><span>Sigh in</span></div>
+					<div id='reg' onclick="showReg()"><span>Sign up</span></div>
+				</div>
+		</div>
+		<div class="modal-window-content reg">
+			<div class="modal-title">Sign up</div>
+				<form id="regForm" method="post">
+					<input type="text" placeholder="Login" name="login">
+					<input class="submit-btn reg" type="submit" value="Register">
+				</form>
+			<div class="back-btn reg">
+				<span onclick="showTitle()">Back</span>	
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../static/js/index.js"></script>
+</body>
